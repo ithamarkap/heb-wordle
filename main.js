@@ -37,7 +37,7 @@ function pickWord() {
     var differenceInTime = today.getTime() - startDate.getTime();
 
     // To calculate the no. of days between two dates
-    var differenceInDays = Math.floor(differenceInTime / (1000 * 3600 * 24));
+    var differenceInDays = Math.floor(differenceInTime / (1000 * 3800 * 24));
     numOfWordale = differenceInDays;
     return listOfWords[differenceInDays];
 }
